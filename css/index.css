@@ -152,6 +152,7 @@ h5 {
 .container {
 	width: 880px;
 	margin: 0 auto;
+	padding: 20px 1.25%;
 }
 
 header {
@@ -273,4 +274,18 @@ footer {
 	margin: 32px 0;
 	text-align: center;
 	font-size: 14px;
+}
+
+/* Responsive Media Queries */
+
+@media (max-width: 800px) {
+	.container {
+		width: 80%;
+	}
+	.cta {
+		align-items: center;
+	}
+	.cta img {
+		display: none;
+	}
 }
