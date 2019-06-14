@@ -281,11 +281,15 @@ footer {
 @media (max-width: 800px) {
 	.container {
 		width: 80%;
+		margin: 10px auto;
 	}
 	.cta {
 		align-items: center;
 	}
 	.cta img {
 		display: none;
+	}
+	header {
+		flex-direction: column-reverse;
 	}
 }
