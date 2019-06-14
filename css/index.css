@@ -280,8 +280,7 @@ footer {
 
 @media (max-width: 800px) {
 	.container {
-		width: 80%;
-		margin: 10px auto;
+		width: 600px;
 	}
 	.cta {
 		align-items: center;
@@ -291,5 +290,32 @@ footer {
 	}
 	header {
 		flex-direction: column-reverse;
+	}
+	header .nav {
+		/* width: 100%; */
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 500px;
+	}
+	nav {
+		flex-direction: column;
+	}
+	nav a {
+		border-bottom: 1px solid grey;
+		padding: 20px;
+		/* width: 100%; */
+		align-items: center;
+	}
+	.text-content {
+		margin-bottom: 20px;
+	}
+	.main-content .top-content {
+		flex-direction: column;
+	}
+	.main-content .bottom-content {
+		flex-direction: column;
 	}
 }
